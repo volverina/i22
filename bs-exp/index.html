@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="hero.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 	<title>Сайт групи І-22</title>
 	<!--
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
@@ -76,8 +79,7 @@
 </section>
 
 
-<section id="about">
-about<img src="img/logo.png">
+<section id="about" class="py-5">
 <!--
 #### **3. Блок "Про групу"**
 Коротка інформація, яка знайомить з колективом.
@@ -86,8 +88,111 @@ about<img src="img/logo.png">
 * **Староста та профорг:** ПІБ, фото, контактна інформація (email, Telegram).
 * **Кілька слів про групу:** Невеликий текст (2-3 речення) про особливості групи: "Ми дружні, активні, беремо участь у студентському житті..." і т.д.
 * **Статистика (за бажанням):** Інфографіка: "В нашій групі: 25 студентів, 10 відмінників, 5 переможців олімпіад" тощо.
-
 --->
+    <div class="container">
+        <h2 class="text-center mb-5">Про нашу групу: І-22</h2>
+        
+        <div class="row g-4 mb-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h4 class="mb-3">
+                        <i class="bi bi-info-circle-fill me-2"></i>Загальна інформація
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>Спеціальність:</strong> 014 Середня освіта (Інформатика)</li>
+                        <li class="mb-2"><strong>Факультет:</strong> фізико-математичний</li>
+                        <li class="mb-2"><strong>Рік вступу:</strong> 2022</li>
+                        <li><strong>Орієнтовний рік випуску:</strong> 2026</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://kdpu.edu.ua/images/personal/563.jpg" class="img-fluid rounded-start h-100" alt="Фото куратора">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Куратор групи</h5>
+                                <p class="card-text"><strong>Закарлюка Ірина Станіславівна</strong></p>
+                                <p class="card-text"><small class="text-muted">Кандидат педагогічних наук, доцент</small></p>
+                                <a href="mailto:irinazakar@kdpu.edu.ua" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-envelope-fill me-1"></i> Email
+                                </a>
+                                <a href="https://kdpu.edu.ua/personal/iszakarliuka.html" target="_blank" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-person-circle me-1"></i> Профіль
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-6">
+                <div class="card text-center shadow-sm">
+                    <img src="https://placehold.co/250x250/343a40/ffffff?text=%D0%A4%D0%BE%D1%82%D0%BE%20%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B0" class="card-img-top" alt="Фото старости">
+                    <div class="card-body">
+                        <h5 class="card-title">Староста</h5>
+                        <p class="card-text">Добрун Станіслав</p>
+                        <div>
+                            <a href="mailto:example@email.com" class="btn btn-link"><i class="bi bi-envelope"></i> Email</a>
+                            <a href="#" class="btn btn-link"><i class="bi bi-telegram"></i> Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-center shadow-sm">
+                    <img src="https://placehold.co/250x250/343a40/ffffff?text=%D0%A4%D0%BE%D1%82%D0%BE%20%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B0" class="card-img-top" alt="Фото профорга">
+                    <div class="card-body">
+                        <h5 class="card-title">Профорг</h5>
+                        <p class="card-text">Прізвище Ім'я</p>
+                         <div>
+                            <a href="mailto:example@email.com" class="btn btn-link"><i class="bi bi-envelope"></i> Email</a>
+                            <a href="#" class="btn btn-link"><i class="bi bi-telegram"></i> Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mb-5">
+            <h3><i class="bi bi-chat-quote-fill"></i> Декілька слів про нас</h3>
+            <p class="lead">
+                Ми — дружна та згуртована група майбутніх вчителів інформатики. Нас об'єднує жага до нових знань у сфері ІТ та бажання ділитися ними з іншими. Ми завжди готові до нових викликів, активно беремо участь у студентському житті факультету та університету.
+            </p>
+        </div>
+
+        <div class="row text-center g-4">
+            <h3 class="mb-0">Наша група в цифрах</h3>
+            <div class="col-md-4">
+                <div class="p-4 bg-primary text-white rounded shadow">
+                    <i class="bi bi-people-fill display-4"></i>
+                    <h3 class="my-2">13 студентів</h3>
+                    <p class="mb-0">Навчаються на бюджеті</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-success text-white rounded shadow">
+                    <i class="bi bi-gender-ambiguous display-4"></i>
+                    <h3 class="my-2">10 хлопців та 3 дівчат</h3>
+                    <p class="mb-0">Гендерний склад групи</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-info text-white rounded shadow">
+                     <i class="bi bi-star-fill display-4"></i>
+                    <h3 class="my-2">ТОП-3</h3>
+                    <p class="mb-0">Студенти з найвищим балом</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <section id="rozklad">
