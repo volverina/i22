@@ -50,6 +50,9 @@
           <a class="nav-link" href="#news">Новини</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#sklad">Склад групи (за паролем)</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#materialy">Матеріали</a>
         </li>
         <li class="nav-item">
@@ -220,8 +223,6 @@ news<img src="img/logo.png">
 --->
 </section>
 
-<section id="sklad">
-sklad<img src="img/logo.png">
 
 <!--
 #### **6. Склад групи**
@@ -234,6 +235,16 @@ sklad<img src="img/logo.png">
     * Контактний email (за бажанням та згодою).
 
 --->
+<section id="sklad" class="py-5 bg-light">
+	<label for="username">Ваш логін для доступу до секції:</label>
+	<input type="text" id="username" name="name" required minlength="1" maxlength="20" size="21" autocomplete="username" />
+	<br/>
+	<label for="password">Ваш пароль для доступу до секції:</label>
+	<input type="password" id="password" name="pass" required minlength="1" maxlength="20" size="21" autocomplete="current-password" />
+	<br/>
+	<input type="button" name="button" value="Увійти до секції" onclick="entersection()" />
+	<script src="section_hidden.js"></script>
+
 </section>
 
 <section id="materialy">
