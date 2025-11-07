@@ -41,6 +41,13 @@
   font-family: "Bad Script", sans-serif;
 }
 
+#hero h3 {
+  color: #ff0000; /* Червоний колір для підзаголовка */
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-family: "Bad Script", sans-serif;
+}
+
 #hero h2:hover {
   color: #eee; /* Світло-сірий колір для підзаголовка */
   margin-bottom: 50px;
@@ -76,6 +83,9 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero h3 {
+    font-size: 14px;
   }
   #hero .btn-get-started {
 	  font-size: 12px;
